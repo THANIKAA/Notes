@@ -1,0 +1,62 @@
+button{
+    background-color: rgb(128, 185, 226);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 45%;
+    height: 30px;
+}
+
+.btn{
+    position: absolute;
+    right:10%;
+    top:5%;
+    height: 30px;
+}
+.notearea{
+    width: 100%;
+    height:500px;
+    border: none;
+}
+.datetime-display {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 10px;
+    color: #555;
+}
+
+input{
+    width:60%;
+    height:70px;
+    margin-top: 1%;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 2px solid black;
+    border-bottom-style: dotted;
+    font-size:40px;
+    -webkit-text-fill-color: rgb(146, 145, 145);
+}
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%; 
+        padding: 15px; 
+    }
+    
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    button {
+        font-size: smaller;
+        padding: 5px ; 
+    }
+
+    input {
+        width: 80%; 
+        font-size: medium;
+    }
+}
+
